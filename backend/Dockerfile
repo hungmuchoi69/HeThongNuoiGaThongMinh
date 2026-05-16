@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 
-# Bước 2: Chạy ứng dụng (Sửa dòng này)
+# Bước 2: Chạy ứng dụng 
 FROM eclipse-temurin:17-jdk-focal 
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
