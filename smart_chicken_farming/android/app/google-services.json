@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858893956599",
+    "project_id": "smartfarmnotification-26c70",
+    "storage_bucket": "smartfarmnotification-26c70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858893956599:android:de9bc83d059582ecf9aaf2",
+        "android_client_info": {
+          "package_name": "com.example.smart_chicken_farming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ7-pDKEx0_NtbzZyRk-AurG0nPDDstPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
