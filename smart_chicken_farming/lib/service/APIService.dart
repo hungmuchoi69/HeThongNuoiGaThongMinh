@@ -14,7 +14,7 @@ import 'package:smart_chicken_farming/model/TieuChuanPhatTrien.dart';
 import 'package:smart_chicken_farming/service/NetworkService.dart';
 
 class Apiservice {
-  static const String baseUrl = 'http://10.223.14.155:8080/api';
+  static const String baseUrl = 'https://be-78cv.onrender.com/api';
 
   static void _handleNetworkFailure(BuildContext? context) {
     if (context != null && context.mounted) {
