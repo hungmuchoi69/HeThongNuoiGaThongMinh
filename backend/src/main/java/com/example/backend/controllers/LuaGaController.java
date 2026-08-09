@@ -28,6 +28,11 @@ public class LuaGaController {
     @Autowired
     private LichTiemThucTeService lichTiemThucTeService;
 
+    @GetMapping("/ping")
+    public ResponseEntity<String> ping(){
+        return ResponseEntity.ok("pong");
+    }
+
     @GetMapping
     public List<LuaGa> getAllLuaGas(){
         return luaGaService.getAllLuaGas();
